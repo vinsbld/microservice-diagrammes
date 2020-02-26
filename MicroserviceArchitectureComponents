@@ -1,1 +1,79 @@
-<mxfile host="www.draw.io" modified="2020-02-26T14:47:36.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" version="12.7.7" etag="0D4-gy9m2-GgB3oo3495" type="github"><diagram id="4mtpY3TkQ8U1IdnhALZi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-02-26T15:18:42.353Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" etag="1MyR5I4QWtAbx-fK0ZyV" version="12.7.7" type="github">
+  <diagram id="4mtpY3TkQ8U1IdnhALZi" name="Page-1">
+    <mxGraphModel dx="1102" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t3gLhHdg8u0dd756U10P-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="t3gLhHdg8u0dd756U10P-1" target="t3gLhHdg8u0dd756U10P-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-1" value="«microservice»&lt;br&gt;&lt;b&gt;LIVRES&lt;/b&gt;" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="358" y="38" width="121" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="t3gLhHdg8u0dd756U10P-2" target="t3gLhHdg8u0dd756U10P-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-2" value="«microservice»&lt;br&gt;&lt;b&gt;UTILISATEURS&lt;/b&gt;" style="html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="t3gLhHdg8u0dd756U10P-3" target="t3gLhHdg8u0dd756U10P-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-3" value="«microservice»&lt;br&gt;&lt;b&gt;RESERVATIONS&lt;/b&gt;" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="t3gLhHdg8u0dd756U10P-4" target="t3gLhHdg8u0dd756U10P-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="t3gLhHdg8u0dd756U10P-4" target="t3gLhHdg8u0dd756U10P-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="t3gLhHdg8u0dd756U10P-4" target="t3gLhHdg8u0dd756U10P-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-4" value="«microservice»&lt;br&gt;&lt;b&gt;CLIENT&lt;/b&gt;" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="t3gLhHdg8u0dd756U10P-19" target="t3gLhHdg8u0dd756U10P-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-19" value="«BDD»&lt;br&gt;&lt;b&gt;LIVRES&lt;/b&gt;" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="800" y="38" width="121" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="t3gLhHdg8u0dd756U10P-22" target="t3gLhHdg8u0dd756U10P-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-22" value="«BDD»&lt;br&gt;&lt;b&gt;RESERVATIONS&lt;/b&gt;" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="800" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="t3gLhHdg8u0dd756U10P-23" target="t3gLhHdg8u0dd756U10P-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-23" value="«BDD»&lt;br&gt;&lt;b&gt;UTILISATEURS&lt;/b&gt;" style="html=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="801" y="440" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-32" value="jdbc:postgresql://localhost:5432/reservationsBDD" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="500" y="287" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-33" value="jdbc:postgresql://localhost:5432/livreBDD" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="520.5" y="86" width="239" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-34" value="jdbc:postgresql://localhost:5432/livreBDD" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="520" y="490" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-35" value="server.port=9089" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="50.5" y="261" width="99" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-36" value="server.port=9091" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="370.5" y="261" width="99" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-37" value="server.port=9092" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="369" y="460" width="99" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3gLhHdg8u0dd756U10P-38" value="server.port=9090" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="370.5" y="60" width="99" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
