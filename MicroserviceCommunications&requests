@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-27T10:22:04.094Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" etag="Mpc5l2lNRmrgYVq8LbbZ" version="12.7.8" type="github">
+<mxfile host="www.draw.io" modified="2020-02-27T11:47:54.106Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" etag="1xTXkx7liMjv3M-14Dhy" version="12.7.8" type="github">
   <diagram id="7s5Dri6MQnNXjniFrHg-" name="Page-1">
-    <mxGraphModel dx="1289" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,7 +65,7 @@
           <mxGeometry x="163" y="430" width="467" height="20" as="geometry" />
         </mxCell>
         <mxCell id="JnspZn93SHJP-3UMMXjt-35" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="40" y="640" width="120" height="120" as="geometry" />
+          <mxGeometry x="40" y="920" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="JnspZn93SHJP-3UMMXjt-36" value="«microservice»&lt;br&gt;&lt;b&gt;CLIENT&lt;/b&gt;" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="JnspZn93SHJP-3UMMXjt-35" vertex="1">
           <mxGeometry width="120" height="120" as="geometry" />
@@ -74,7 +74,7 @@
           <mxGeometry x="10" y="21" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="JnspZn93SHJP-3UMMXjt-38" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="640" y="640" width="121" height="120" as="geometry" />
+          <mxGeometry x="640" y="920" width="121" height="120" as="geometry" />
         </mxCell>
         <mxCell id="JnspZn93SHJP-3UMMXjt-39" value="«microservice»&lt;br&gt;&lt;b&gt;MYLIBRARY&lt;/b&gt;" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="JnspZn93SHJP-3UMMXjt-38" vertex="1">
           <mxGeometry width="121" height="120" as="geometry" />
@@ -83,7 +83,7 @@
           <mxGeometry x="10.5" y="22" width="99" height="26" as="geometry" />
         </mxCell>
         <mxCell id="JnspZn93SHJP-3UMMXjt-43" value="demande à pouvoir prolonger le prêt d&#39;un livre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="680" width="260" height="20" as="geometry" />
+          <mxGeometry x="240" y="960" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="JnspZn93SHJP-3UMMXjt-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="JnspZn93SHJP-3UMMXjt-39" target="JnspZn93SHJP-3UMMXjt-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -101,7 +101,7 @@
           <mxGeometry x="40" y="260" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yUXaploOOtpTbulD-QZl-7" value="(3): créer une requête sauvegarder une demande de réservation pour un livre  + créer un btn pour envoyer la demande sur page html (Livre/{id})  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="30" y="500" width="780" height="30" as="geometry" />
+          <mxGeometry x="30" y="500" width="810" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yUXaploOOtpTbulD-QZl-8" value="(4): créer une requête pour trouver les demandes de prêt par Utilisateur + page html (voir page profil utilisateur)  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="30" y="540" width="630" height="30" as="geometry" />
@@ -113,10 +113,70 @@
           <mxGeometry x="360" y="407" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yUXaploOOtpTbulD-QZl-11" value="(5)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="342" y="650" width="80" height="26" as="geometry" />
+          <mxGeometry x="342" y="930" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yUXaploOOtpTbulD-QZl-12" value="(5): créer une requête sauvegarder une demande de prolongation pour le prêt d&#39;un livre  &#xa;&#xa;+ créer un btn pour envoyer la demande sur page html (voir page profil utilisateur)  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="35" y="780" width="525" height="60" as="geometry" />
+          <mxGeometry x="35" y="1060" width="525" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="43" y="641" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-14" value="«microservice»&lt;br&gt;&lt;b&gt;CLIENT&lt;/b&gt;" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yUXaploOOtpTbulD-QZl-13">
+          <mxGeometry width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-15" value="server.port=9089" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yUXaploOOtpTbulD-QZl-13">
+          <mxGeometry x="10" y="21" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="633" y="641" width="121" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-17" value="«microservice»&lt;br&gt;&lt;b&gt;MYLIBRARY&lt;/b&gt;" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="yUXaploOOtpTbulD-QZl-16">
+          <mxGeometry width="121" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-18" value="server.port=9001" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yUXaploOOtpTbulD-QZl-16">
+          <mxGeometry x="10.5" y="22" width="99" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="yUXaploOOtpTbulD-QZl-14" target="yUXaploOOtpTbulD-QZl-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-22" value="demande à consulter la quantité d&#39;un livre en cours de réservation " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="163" y="697" width="467" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-23" value="(5): créer une requête afin de consulter la liste des réservations en cours pour un livre  + page html (Livre/{id})  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="33" y="781" width="607" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-25" value="(5)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="359.5" y="625" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-26" value="(6)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="360" y="671" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-29" value="demande à consulter la liste des réservations en cours pour un livre " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="166" y="651" width="467" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-30" value="demande à consulter la quantité disponible d&#39;un livre à la réservation " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="166.5" y="736" width="467" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-31" value="(7)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="360" y="710" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="163" y="710" as="sourcePoint" />
+            <mxPoint x="633" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="163" y="756" as="sourcePoint" />
+            <mxPoint x="633" y="756" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-35" value="(6): créer une requête afin de consulter la liste des réservations en cours pour un livre  + page html (Livre/{id})  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="33" y="811" width="607" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yUXaploOOtpTbulD-QZl-36" value="(7): créer une requête afin de consulter la liste des réservations en cours pour un livre  + page html (Livre/{id})  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="33" y="841" width="607" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
