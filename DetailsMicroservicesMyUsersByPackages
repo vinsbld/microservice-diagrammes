@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-27T11:54:47.816Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" etag="TYLn3uCV5SwgKFSYtOMx" version="12.7.8" type="github">
+<mxfile host="www.draw.io" modified="2020-02-27T15:32:07.436Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" etag="9IWitgP-XkJAn1pfpozE" version="12.7.8" type="github">
   <diagram id="EKAqHftd9Wr7-evsUl8M" name="Page-1">
-    <mxGraphModel dx="1489" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1737" dy="1050" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,6 +39,99 @@
         </mxCell>
         <mxCell id="bQ-bHeImvseAHpxqj_ta-9" value="com.bibliothque.microservicemyusers" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bQ-bHeImvseAHpxqj_ta-18">
           <mxGeometry x="58.469086757990866" y="39.57377049180326" width="323.2876712328767" height="30.262295081967213" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=200;exitDy=43;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bQ-bHeImvseAHpxqj_ta-21" target="bQ-bHeImvseAHpxqj_ta-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-21" value="dao" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1165" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-22" value="&lt;h1&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;UtilisateurDao.java&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Contient les différentes requêtes :&lt;/p&gt;&lt;ol&gt;&lt;li&gt;une pour trouver un utilisateur par son pseudo&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="422.53" y="1149" width="304.47" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-25" value="Java" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="30" y="800" width="590" height="284" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-26" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="74.99876712328766" y="852.3770491803278" width="509.1780821917808" height="186.2295081967213" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-27" value="controller" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="102.28415525114156" y="916.3934426229508" width="75.4337899543379" height="58.19672131147541" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-28" value="model" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="347.09922374429226" y="916.3934426229508" width="75.4337899543379" height="58.19672131147541" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-29" value="security" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="476.4142922374429" y="916.3934426229508" width="75.4337899543379" height="58.19672131147541" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-30" value="com.bibliothque.microservicemyusers" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="88.46908675799087" y="839.5737704918033" width="323.2876712328767" height="30.262295081967213" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=200;exitDy=43;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bQ-bHeImvseAHpxqj_ta-32" target="bQ-bHeImvseAHpxqj_ta-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-32" value="model" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="38" y="1772" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-33" value="&lt;h1&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;UtilisateurDao.java&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Contient les différents attributs de l&#39;Entité.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="420.53" y="1756" width="304.47" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-34" value="Java" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1411" width="590" height="284" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-35" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="74.99876712328766" y="1463.377049180328" width="509.1780821917808" height="186.2295081967213" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-36" value="controller" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="102.28415525114156" y="1527.3934426229507" width="75.4337899543379" height="58.19672131147541" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-37" value="dao" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="239.99922374429227" y="1527.3934426229507" width="75.4337899543379" height="58.19672131147541" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-38" value="security" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="476.4142922374429" y="1527.3934426229507" width="75.4337899543379" height="58.19672131147541" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-39" value="com.bibliothque.microservicemyusers" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="88.46908675799087" y="1450.5737704918033" width="323.2876712328767" height="30.262295081967213" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=200;exitDy=43;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bQ-bHeImvseAHpxqj_ta-41" target="bQ-bHeImvseAHpxqj_ta-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-52" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=200;exitDy=72;exitPerimeter=0;" edge="1" parent="1" source="bQ-bHeImvseAHpxqj_ta-41" target="bQ-bHeImvseAHpxqj_ta-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-41" value="security" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="38" y="2485" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-42" value="&lt;h1&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;BCryptManager.java&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Crypte le mot de passe.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="420.53" y="2344" width="304.47" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-43" value="Java" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1999" width="590" height="284" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-44" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="74.99876712328766" y="2051.377049180328" width="509.1780821917808" height="186.2295081967213" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-45" value="controller" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="102.28415525114156" y="2115.3934426229507" width="75.4337899543379" height="58.19672131147541" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-46" value="dao" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="239.99922374429227" y="2115.3934426229507" width="75.4337899543379" height="58.19672131147541" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-48" value="com.bibliothque.microservicemyusers" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="88.46908675799087" y="2038.5737704918033" width="323.2876712328767" height="30.262295081967213" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-49" value="model" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="357.99922374429224" y="2117.003442622951" width="75.4337899543379" height="58.19672131147541" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-50" value="&lt;h1&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;SecurityConfig.java&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Classe de configuration.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="420.53" y="2495" width="304.47" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-54" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=200;entryDy=101;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="bQ-bHeImvseAHpxqj_ta-51" target="bQ-bHeImvseAHpxqj_ta-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bQ-bHeImvseAHpxqj_ta-51" value="&lt;h1&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;UtilisateurSecurityService.java&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Couche Service.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="420.53" y="2646" width="304.47" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
