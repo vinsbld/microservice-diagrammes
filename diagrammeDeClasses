@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-28T14:57:40.195Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" etag="YFzY0tt6bLGWu1mpgJHa" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-02T17:05:51.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" etag="Gz-zKp6xmGjXqcc8S-OD" version="12.7.9" type="github">
   <diagram id="Fz_nuzR6LBOv6KovLmxD" name="Page-1">
-    <mxGraphModel dx="1888" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1581" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,7 +61,7 @@
         <mxCell id="JRDIeZpSERLfpsIAeDun-8" value="Reservation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="150" width="150" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="JRDIeZpSERLfpsIAeDun-9" value="+ Long : id&#xa;+ Long : id_utilistateur&#xa;+ Date : dateDuDebutPret&#xa;+ Date : dateDuFinPret&#xa;+ boolean : prolongerPret&#xa;+ Copie copies&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="JRDIeZpSERLfpsIAeDun-8" vertex="1">
+        <mxCell id="JRDIeZpSERLfpsIAeDun-9" value="+ Long : id&#xa;+ Long : id_utilistateur&#xa;+ Date : dateDuDebutPret&#xa;+ Date : dateDuFinPret&#xa;+ boolean : prolongerPret&#xa;+ Copie copie&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="JRDIeZpSERLfpsIAeDun-8" vertex="1">
           <mxGeometry y="26" width="150" height="104" as="geometry" />
         </mxCell>
         <mxCell id="JRDIeZpSERLfpsIAeDun-10" value="RoleEnum" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
@@ -91,7 +91,7 @@
         <mxCell id="JRDIeZpSERLfpsIAeDun-30" value="Copie" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry y="150" width="240" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="JRDIeZpSERLfpsIAeDun-31" value="+ Long : id&#xa;+ Livre livres&#xa;+ Collection &lt;Reservation&gt; reservations&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="JRDIeZpSERLfpsIAeDun-30" vertex="1">
+        <mxCell id="JRDIeZpSERLfpsIAeDun-31" value="+ Long : id&#xa;+ Interger : nbCopies&#xa;+ Livre livres&#xa;+ Collection &lt;Reservation&gt; reservations&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="JRDIeZpSERLfpsIAeDun-30" vertex="1">
           <mxGeometry y="26" width="240" height="104" as="geometry" />
         </mxCell>
       </root>
