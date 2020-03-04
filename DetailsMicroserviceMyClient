@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-04T10:54:55.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" etag="6-YElGxautRyQwwh0UKX" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-04T14:47:20.215Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" etag="vz761sY2v-60dDebGc_U" version="12.7.9" type="github">
   <diagram id="maslV6Yoj959ncsuZ0rL" name="Page-1">
     <mxGraphModel dx="1061" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="B93_mI8M8r3DRjWqoE9n-12" value="beans" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="237.78415525114156" y="476.39344262295083" width="75.4337899543379" height="58.19672131147541" as="geometry" />
         </mxCell>
-        <mxCell id="B93_mI8M8r3DRjWqoE9n-13" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="B93_mI8M8r3DRjWqoE9n-13" value="proxies" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="367.09922374429226" y="476.39344262295083" width="75.4337899543379" height="58.19672131147541" as="geometry" />
         </mxCell>
         <mxCell id="B93_mI8M8r3DRjWqoE9n-14" value="security" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -64,7 +64,7 @@
         <mxCell id="B93_mI8M8r3DRjWqoE9n-15" value="controller" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="108.46908675799087" y="476.39344262295083" width="75.4337899543379" height="58.19672131147541" as="geometry" />
         </mxCell>
-        <mxCell id="B93_mI8M8r3DRjWqoE9n-16" value="com.bibliothque.microservicemyusers" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+        <mxCell id="B93_mI8M8r3DRjWqoE9n-16" value="com.bibliothque.microservicemyclient" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="108.46908675799087" y="399.57377049180326" width="323.2876712328767" height="30.262295081967213" as="geometry" />
         </mxCell>
       </root>
