@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-02T17:05:51.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" etag="Gz-zKp6xmGjXqcc8S-OD" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-11T14:21:39.320Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" etag="UtCttHFKT-CTav3raS0U" version="12.8.2" type="github">
   <diagram id="Fz_nuzR6LBOv6KovLmxD" name="Page-1">
-    <mxGraphModel dx="1581" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1446" dy="333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,6 +92,63 @@
           <mxGeometry y="150" width="240" height="130" as="geometry" />
         </mxCell>
         <mxCell id="JRDIeZpSERLfpsIAeDun-31" value="+ Long : id&#xa;+ Interger : nbCopies&#xa;+ Livre livres&#xa;+ Collection &lt;Reservation&gt; reservations&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="JRDIeZpSERLfpsIAeDun-30" vertex="1">
+          <mxGeometry y="26" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-1" value="&lt;div&gt;&lt;h4&gt;&lt;b&gt;Diagramme de classe microservice-mylibrary&lt;/b&gt;&lt;/h4&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=center;spacingTop=-6;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-365" y="680" width="970" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="j4EQ3qIBmbmf6xh9Y07c-6" target="j4EQ3qIBmbmf6xh9Y07c-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-3" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="j4EQ3qIBmbmf6xh9Y07c-2">
+          <mxGeometry x="-0.8509" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-4" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="j4EQ3qIBmbmf6xh9Y07c-2">
+          <mxGeometry x="0.7644" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-5" value="Possede" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="j4EQ3qIBmbmf6xh9Y07c-2">
+          <mxGeometry x="-0.321" y="2" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-6" value="Livre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="760" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-7" value="+ Long : id&#xa;+ String : titre&#xa;+ String : nomAuteur&#xa;+ String : prenomAuteur&#xa;+ Date : dateEdition&#xa;+Interger : nbCopies&#xa;+ Collection&lt;Copie&gt; copies&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="j4EQ3qIBmbmf6xh9Y07c-6">
+          <mxGeometry y="26" width="170" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-8" value="Reservation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="765" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-9" value="+ Long : id&#xa;+ Long : id_utilistateur&#xa;+ Date : dateDuDebutPret&#xa;+ Date : dateDuFinPret&#xa;+ boolean : prolongerPret&#xa;+ Copie copie&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="j4EQ3qIBmbmf6xh9Y07c-8">
+          <mxGeometry y="26" width="150" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="j4EQ3qIBmbmf6xh9Y07c-14" target="j4EQ3qIBmbmf6xh9Y07c-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-11" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="j4EQ3qIBmbmf6xh9Y07c-10">
+          <mxGeometry x="-0.8625" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-12" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="j4EQ3qIBmbmf6xh9Y07c-10">
+          <mxGeometry x="0.8375" y="-1" relative="1" as="geometry">
+            <mxPoint x="-4" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-13" value="Reserve" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="j4EQ3qIBmbmf6xh9Y07c-10">
+          <mxGeometry x="-0.2287" y="2" relative="1" as="geometry">
+            <mxPoint x="8.82" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-14" value="Copie" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry y="765" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-15" value="+ Long : id&#xa;+ Interger : isbn&#xa;+ boolean : disponible&#xa;+ Integer : nbCopiesDisponibles&#xa;+ Livre livres&#xa;+ Collection &lt;Reservation&gt; reservations&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="j4EQ3qIBmbmf6xh9Y07c-14">
           <mxGeometry y="26" width="240" height="104" as="geometry" />
         </mxCell>
       </root>
