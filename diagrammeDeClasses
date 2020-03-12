@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-12T14:08:12.020Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" etag="Q_9VnjLpwISefq1iAVEE" version="12.8.2" type="github">
+<mxfile host="www.draw.io" modified="2020-03-12T14:38:45.213Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" etag="85D2VvflahkML5cUPzUp" version="12.8.2" type="github">
   <diagram id="Fz_nuzR6LBOv6KovLmxD" name="Page-1">
     <mxGraphModel dx="1695" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
         <mxCell id="j4EQ3qIBmbmf6xh9Y07c-6" value="Livre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-330" y="760" width="170" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-7" value="+ Long : id&#xa;+ String : titre&#xa;+ String : nomAuteur&#xa;+ String : prenomAuteur&#xa;+ Date : dateEdition&#xa;+ String : editeur&#xa;+ Collection&lt;Copie&gt; copies&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="j4EQ3qIBmbmf6xh9Y07c-6">
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-7" value="+ Long : id&#xa;+ String : titre&#xa;+ String : nomAuteur&#xa;+ String : prenomAuteur&#xa;+ Date : dateEdition&#xa;+ String : editeur&#xa;+ Set&lt;Copie&gt; copies&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="j4EQ3qIBmbmf6xh9Y07c-6">
           <mxGeometry y="26" width="170" height="114" as="geometry" />
         </mxCell>
         <mxCell id="j4EQ3qIBmbmf6xh9Y07c-8" value="Reservation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -148,7 +148,7 @@
         <mxCell id="j4EQ3qIBmbmf6xh9Y07c-14" value="Copie" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry y="765" width="240" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-15" value="+ Long : id&#xa;+ Interger : isbn&#xa;+ boolean : disponible&#xa;+ Livre livres&#xa;+ List &lt;Reservation&gt; reservations&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="j4EQ3qIBmbmf6xh9Y07c-14">
+        <mxCell id="j4EQ3qIBmbmf6xh9Y07c-15" value="+ Long : id&#xa;+ Interger : isbn&#xa;+ boolean : disponible&#xa;+ Livre livres&#xa;+ Set&lt;Reservation&gt; reservations&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="j4EQ3qIBmbmf6xh9Y07c-14">
           <mxGeometry y="26" width="240" height="104" as="geometry" />
         </mxCell>
       </root>
